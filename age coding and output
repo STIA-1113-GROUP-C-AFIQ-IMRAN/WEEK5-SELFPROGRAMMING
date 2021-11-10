@@ -1,0 +1,35 @@
+Coding:
+package selfprogramming;
+
+import java.util.Scanner;
+
+public class age {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int age;
+		
+		Scanner scanMe = new Scanner (System.in);
+		
+		System.out.println("Whats your age?");
+		age = scanMe.nextInt();
+		
+		if  ((age >= 25) && (age <= 50))
+		{ System.out.println("Congrats your'e in");
+		}
+		else 
+		{
+		     System.out.println("Bruh"); 
+		}
+
+
+	}
+
+}
+
+
+Output:
+Whats your age?
+30
+Congrats your'e in
