@@ -1,0 +1,47 @@
+Coding:
+package selfprogramming;
+
+public class BlockStatement {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int total = 12;
+		int MAX = 10;
+		int errorCount = 0;
+		int WaaaaCounter = 0;
+		int ZuuuuCounter = 1;
+		
+		if (total > MAX)
+		{
+		   System.out.println ("Error!!");
+		errorCount++;
+		
+		}
+		
+		else if (total < MAX) {
+			
+			System.out.println("Waaaaa!!!!");
+			WaaaaCounter++;
+			
+		}
+		else {
+			System.out.println("Zuuuu!!!!");
+			ZuuuuCounter++;
+			
+		}
+		System.out.println("Error " + ZuuuuCounter);
+		System.out.println("WaaaaCounter: " + WaaaaCounter);
+		System.out.println("Zuuuu: " + ZuuuuCounter);
+
+
+	}
+
+}
+
+
+Output:
+Error!!
+Error 1
+WaaaaCounter: 0
+Zuuuu: 1
